@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de tarefas</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header>
+        <h1>Minha lista de tarefas</h1>
+        <p>Desenvolvida para a prova de PW1 </p>
+    </header>
+
+    <main>
+
+        <section id="pri">
+            <form id="form-tabela">
+                <label for="entrada">Digite a sua tarefa:</label>
+                <input type="text" id="entrada" placeholder="Digite aqui">
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section id="seg">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Tarefa</th>
+                        <th>Status</th>
+                        <th>Remover</th>
+                    </tr>
+                </thead>
+
+                <tbody id="tabela-form">
+
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <footer>
+        <p>Desenvolvido por Miguel de Andrade, Lucca Matos e Levi Tavares</p>
+    </footer>
+    
+    <script src="js/app.js"></script>
+</body>
+</html>
